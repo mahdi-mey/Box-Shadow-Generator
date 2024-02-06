@@ -4,8 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Shadow</title>
+    <!-- stylesheet and script -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- ionIcon library -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
+
+    <div class="box">
+        <label>Offset X</label>
+        <input class="offset-x slider" type="range" min="-100" max="100" value="0">
+        <label>Offset Y</label>
+        <input class="offset-y slider" type="range" min="-100" max="100" value="0">
+        <label>Blur Raduis</label>
+        <input class="blur-radius slider" type="range" min="0" max="100" value="10">
+        <label>Blur Spread</label>
+        <input class="blur-spread slider" type="range" min="0" max="100" value="2">
+        <label>Color</label>
+        <input class="color" type="color" value="#ffffff">
+        
+    </div>
     
 </body>
 </html>
