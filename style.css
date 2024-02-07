@@ -1,7 +1,7 @@
-:root{
-    --main-color:    #374259;
-    --primary-color: #e3dddd;
-    --box-color: #9BABB8;
+:root {
+  --main-color: #374259;
+  --primary-color: #e3dddd;
+  --box-color: #9babb8;
 }
 
 * {
@@ -36,7 +36,6 @@ body {
   margin: 8px;
 }
 
-
 .slider {
   width: 60%;
   margin: 50px auto;
@@ -62,41 +61,41 @@ body {
 }
 /* styles only for generated code input */
 .coppy-link {
-    --height: 36px;
-  
-    width: 100%;
-    display: flex;
-    outline: 1px solid gray;
-    background-color: var(--primary-color);
-  }
-  
-  .coppy-link-input {
-    flex-grow: 1;
-    padding: 0 4px;
-    font-size: 14px;
-    border: none;
-    border-right: none;
-    outline: none;
-    transition: all 100ms ease;
-    background-color: var(--primary-color);
-  }
-  
-  .coppy-link-btn {
-    font-size: 20px;
-    flex-shrink: 0;
-    height: var(--height);
-    width: var(--height);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ddd;
-    color: #333333;
-    outline: none;
-    border: 1px solid #ccc;
-    cursor: pointer;
-    transition: all 100ms ease;
-  }
-  
-  .coppy-link-btn:hover {
-    background-color: #ccc;
-  }
+  --height: 36px;
+
+  width: 100%;
+  display: flex;
+  outline: 1px solid gray;
+  background-color: var(--primary-color);
+}
+
+.coppy-link-input {
+  flex-grow: 1;
+  padding: 0 4px;
+  font-size: 14px;
+  border: none;
+  border-right: none;
+  outline: none;
+  transition: all 100ms ease;
+  background-color: var(--primary-color);
+}
+
+.coppy-link-btn {
+  font-size: 20px;
+  flex-shrink: 0;
+  height: var(--height);
+  width: var(--height);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ddd;
+  color: #333333;
+  outline: none;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: all 100ms ease;
+}
+
+.coppy-link-btn:hover {
+  background-color: #ccc;
+}
